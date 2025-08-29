@@ -9,11 +9,12 @@ public class Calculator {
 
         System.out.print("Enter second number: ");
         double num2 = sc.nextDouble();
-
+        System.out.println("select any one option");
         System.out.println("1:Addition (+)");
         System.out.println("2:Substraction(-) ");
         System.out.println("3:Multiplication(*) ");
         System.out.println("4:Division(/) ");
+        System.out.println("Enter your choise : ");
         char operator = sc.next().charAt(0);
 
         System.out.println("\n--- Using switch-case ---");
@@ -42,4 +43,5 @@ public class Calculator {
         sc.close();
     }
 }
+
 
