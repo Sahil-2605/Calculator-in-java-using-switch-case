@@ -10,10 +10,10 @@ public class Calculator {
         System.out.print("Enter second number: ");
         double num2 = sc.nextDouble();
 
-        System.out.print("1:Addition (+)");
-        System.out.print("2:Substraction(-) ");
-        System.out.print("3:Multiplication(*) ");
-        System.out.print("4:Division(/) ");
+        System.out.println("1:Addition (+)");
+        System.out.println("2:Substraction(-) ");
+        System.out.println("3:Multiplication(*) ");
+        System.out.println("4:Division(/) ");
         char operator = sc.next().charAt(0);
 
         System.out.println("\n--- Using switch-case ---");
@@ -42,3 +42,4 @@ public class Calculator {
         sc.close();
     }
 }
+
